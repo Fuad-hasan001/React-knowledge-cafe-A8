@@ -1,0 +1,17 @@
+nav .header {
+    color: black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+nav hr {
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+    background: rgba(17, 17, 17, 0.15);
+}

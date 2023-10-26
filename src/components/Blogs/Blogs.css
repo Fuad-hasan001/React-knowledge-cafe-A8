@@ -1,0 +1,11 @@
+.blogs-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.blog-container{
+    
+}

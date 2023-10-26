@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&display=swap');
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  min-width: 100%;
+  background-color: #FFF;
+  color: black;
+  font-family: 'Exo 2', sans-serif;
+
 }
 
 .logo {
