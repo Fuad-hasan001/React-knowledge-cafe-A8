@@ -8,13 +8,6 @@ const Header = () => {
             <div className='header'>
                 <h2>Tech Blogs</h2>
 
-                {/* <div>
-                <a href="/Home">Home</a>
-                <a href="/Blogs">Blogs</a>
-                <a href="/Bookmarks">Bookmarks</a>
-                <a href="/Ques&Ans">Ques&Ans</a>
-            </div> */}
-
                 <img src={profile} alt="" />
             </div>
 

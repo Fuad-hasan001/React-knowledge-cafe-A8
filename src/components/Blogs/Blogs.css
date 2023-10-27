@@ -1,11 +1,12 @@
-.blogs-container{
+.main-container{
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 1fr;
 
-    margin-left: 10vw;
-    margin-right: 10vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    
 }
 
-.blog-container{
-    
+.blogs-container{
+    padding: 10px;
 }

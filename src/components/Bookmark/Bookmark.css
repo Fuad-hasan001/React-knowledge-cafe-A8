@@ -1,0 +1,60 @@
+/* .bookmark {
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.bookmark .spentTime-count {
+
+    width: 350px;
+    height: 80px;
+    padding: 10px 30px;
+
+    border-radius: 8px;
+    border: 1px solid #6047EC;
+    background: rgba(17, 17, 17, 0.05);
+
+}
+
+.bookmark h3 {
+    font-family: Exo 2;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.spentTime-count h3 {
+    color: #6047EC;
+}
+
+.bookmarked-blogs {
+
+    width: 350px;
+    height: 1352px;
+    padding: 10px 30px;
+
+    border-radius: 8px;
+    border: 1px solid #6047EC;
+
+    background: rgba(17, 17, 17, 0.05);
+}
+
+.bookmarked-blogs h3 {
+    color: #111;
+    margin-bottom: 5%;
+
+
+}
+
+.bookmarked-blogs div {
+    padding: 2%;
+    margin-bottom: 5%;
+    background: #FFF;
+
+    border: 1px solid #FFF;
+    border-radius: 10px;
+
+} */
