@@ -9,6 +9,8 @@ const Blog = (props) => {
     // received data via props and destructuring
     const { blogCoverImg, authorImg, authorName, publishDate, readTime, blogTitle, hashFile} = props.blog;
 
+    // mark as read
+    // const addSpentReadTime = props.addSpentReadTime
 
     return (
         <div className='blog'>
@@ -32,7 +34,7 @@ const Blog = (props) => {
                 <div className="blog-info">
                     <h2>{blogTitle}</h2>
                     <p><small>{hashFile}</small></p>
-                    <a href="/">Mark as read</a>
+                    <button className='btn-readTime' href="/">Mark as read</button>
                 </div>
         </div>
     );

@@ -1,16 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Bookmark.css'
 
-const Bookmark = () => {
+const Bookmark = (props) => {
  
     return (
         <div className='bookmark'>
                 <div className='spentTime-count'>
-                    <h3>Spent time on read : min</h3>
+                    <h3>Spent time on read : 170 min</h3>
                 </div>
 
                 <div className='bookmarked-blogs'>
-                    <h3>Bookmarked Blogs :</h3>
+                    <h3>Bookmarked Blogs: </h3>
                     <div>
                         <h4>hello</h4>
                         

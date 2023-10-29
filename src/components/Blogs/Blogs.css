@@ -24,3 +24,14 @@
 .QuesAns-container h2{
     text-align: center;
 }
+
+.btn-readTime{
+    background: #FFF;
+    border: 0;
+    border-color: #FFF;
+    color: blueviolet;
+}
+.btn-readTime:hover{
+    border: 0;
+    border-bottom: 1px solid blueviolet;
+}

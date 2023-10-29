@@ -6,6 +6,7 @@ import QuesAns from '../QuesAns/QuesAns';
 
 const Blogs = () => {
 
+    // fetching date and add to state------------------
     //declare state for access each blog
     const [blogs, setBlogs] = useState([])
 
@@ -16,8 +17,11 @@ const Blogs = () => {
             .then(data => setBlogs(data))
     }, [])
 
-    // Question and Answer: ***********************
-        // to get data from QesAns.json file
+    // bookmark section-----------------------------
+    
+
+    // Question and Answer: -----------------------
+        // to get the data from QesAns.json file
     const [quesAns, setQuesAns] = useState([])
 
     useEffect(() => {
@@ -34,7 +38,7 @@ const Blogs = () => {
                         blogs.map(blog => <Blog
                             key={blog.id}
                             blog={blog}
-
+                            
                         ></Blog>)
                     }
 
@@ -43,6 +47,7 @@ const Blogs = () => {
 
                 <div className='Bookmarks-container'>
                     <Bookmark
+                        
                     ></Bookmark>
                 </div>
 
