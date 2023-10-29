@@ -17,9 +17,30 @@ const Blogs = () => {
             .then(data => setBlogs(data))
     }, [])
 
-    // bookmark section-----------------------------
-    
 
+    // bookmark section-----------------------------
+    const [bookmark, setbookmark] = useState([])
+    
+    // bookmark-blogsCount:  declare event handler
+     const handleBlogCountToBookmark = (blog) =>{
+        // console.log('blog added', blog)
+
+        // create new bookmark
+        const newBookmark = [...bookmark, blog]
+        setbookmark(newBookmark)
+
+    }
+
+
+    // spend time on read--------------------
+    const [timeCount, setTimeCount] = useState([])
+
+    const handleTimeCountToBookmark = (blog) =>{
+        const newTimeCount = [...timeCount, blog]
+        setTimeCount(newTimeCount)
+    }
+
+    
     // Question and Answer: -----------------------
         // to get the data from QesAns.json file
     const [quesAns, setQuesAns] = useState([])
@@ -38,7 +59,8 @@ const Blogs = () => {
                         blogs.map(blog => <Blog
                             key={blog.id}
                             blog={blog}
-                            
+                            handleBlogCountToBookmark = {handleBlogCountToBookmark}
+                            handleTimeCountToBookmark = {handleTimeCountToBookmark}
                         ></Blog>)
                     }
 
@@ -46,8 +68,11 @@ const Blogs = () => {
 
 
                 <div className='Bookmarks-container'>
+                    {/* <h3>Bookmarked Blogs: {bookmark.length}</h3> */}
+
                     <Bookmark
-                        
+                        bookmark = {bookmark}
+                        timeCount = {timeCount}
                     ></Bookmark>
                 </div>
 

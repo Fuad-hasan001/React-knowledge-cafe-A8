@@ -9,8 +9,12 @@ const Blog = (props) => {
     // received data via props and destructuring
     const { blogCoverImg, authorImg, authorName, publishDate, readTime, blogTitle, hashFile} = props.blog;
 
-    // mark as read
-    // const addSpentReadTime = props.addSpentReadTime
+    // // add bookmarked blog count: 
+    //     const handleBlogCountToBookmark = (blog) =>{
+    //         console.log('blog added', blog)
+    //     }
+    const handleBlogCountToBookmark = props.handleBlogCountToBookmark; //bookmark-blogsCount
+    const handleTimeCountToBookmark = props.handleTimeCountToBookmark; // spend time on read
 
     return (
         <div className='blog'>
@@ -27,14 +31,14 @@ const Blog = (props) => {
 
                     <div>
                         <p><small>{readTime} min read <span>
-                            <button className='btn-bookmark'><FontAwesomeIcon icon={faBookBookmark} /></button></span></small></p>
+                            <button onClick={() => handleBlogCountToBookmark(props.blog)} className='btn-bookmark'><FontAwesomeIcon icon={faBookBookmark} /></button></span></small></p>
                     </div>
                 </div>
 
                 <div className="blog-info">
                     <h2>{blogTitle}</h2>
                     <p><small>{hashFile}</small></p>
-                    <button className='btn-readTime' href="/">Mark as read</button>
+                    <button onClick={() => handleTimeCountToBookmark(props.blog)} className='btn-readTime' href="/">Mark as read</button>
                 </div>
         </div>
     );

@@ -3,17 +3,33 @@ import './Bookmark.css'
 
 const Bookmark = (props) => {
  
+    // const bookmark = props.bookmark;
+    // console.log(bookmark) //-------------just for check
+    const {bookmark, timeCount} = props;  // bookmark and props both are an array
+
+    // let total = 0;
+    // for(const blog of bookmark){
+    //     total = total + blog.readTime
+    // }
+    // console.log(total);
+
+    // spend time on read
+    let totalTimeCount = 0;
+    for(const blog of timeCount){
+        totalTimeCount = totalTimeCount + blog.readTime
+    }
+    console.log(totalTimeCount)
+   
     return (
         <div className='bookmark'>
                 <div className='spentTime-count'>
-                    <h3>Spent time on read : 170 min</h3>
+                    <h3>Spent time on read : {totalTimeCount} min</h3>
                 </div>
 
                 <div className='bookmarked-blogs'>
-                    <h3>Bookmarked Blogs: </h3>
+                    <h3>Bookmarked Blogs: {bookmark.length}</h3>
                     <div>
-                        <h4>hello</h4>
-                        
+                        <h4>hello: {}</h4>
                     </div>
                 </div>    
         </div>
