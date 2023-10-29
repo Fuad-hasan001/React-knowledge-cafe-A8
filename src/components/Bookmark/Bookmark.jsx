@@ -1,20 +1,21 @@
 import React from 'react';
 import './Bookmark.css'
+
 const Bookmark = () => {
+ 
     return (
         <div className='bookmark'>
                 <div className='spentTime-count'>
-                    <h3>Spent time on read : {0} min</h3>
+                    <h3>Spent time on read : min</h3>
                 </div>
 
                 <div className='bookmarked-blogs'>
-                    <h3>Bookmarked Blogs : 8</h3>
-                    {/* <h4>{bookMarked}</h4> */}
+                    <h3>Bookmarked Blogs :</h3>
                     <div>
-                        <h4>Master Microsoft Power Platform and Become an In-Demand!</h4>
+                        <h4>hello</h4>
+                        
                     </div>
-                    
-                </div>
+                </div>    
         </div>
     );
 };

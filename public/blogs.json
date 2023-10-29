@@ -1,47 +1,43 @@
 [
   {
     "id": "653aa9cd2c577ae60c5b3e0b",
-    "name": "Mr.Raju",
-    "title": "How to get your first job as a self-taught programmer",
-    "img": "../public/images/boy1.png",
-    "coverImg": "../public/images/2.png",
+    "authorName": "Mr.Raju",
+    "blogTitle": "How to get your first job as a self-taught programmer",
+    "authorImg": "../public/images/boy1.png",
+    "blogCoverImg": "../public/images/2.png",
     "readTime": 5,
     "publishDate": "Mar 14 (4 Days ago)",
-    "hashFile": "#beginner  #programming",
-    "bookMarked": "Master Microsoft Power Platform and Become an In-Demand!"
+    "hashFile": "#beginner  #programming"
 
   },
   {
     "id": "653aa9cd2599e6c149b4657b",
-    "name": "Mrs. Setara",
-    "title": "How to get your first job as a self-taught programmer",
-    "img": "../public/images/girl1.jpg",
-    "coverImg": "../public/images/1.jpg",
+    "authorName": "Mrs. Setara",
+    "blogTitle": "How to get your first job as a self-taught programmer",
+    "authorImg": "../public/images/girl1.jpg",
+    "blogCoverImg": "../public/images/1.jpg",
     "readTime": 10,
     "publishDate": "Mar 14 (4 Days ago)",
-    "hashFile": "#beginner  #programming",
-    "bookMarked": "Master Microsoft Power Platform and Become an In-Demand!"
+    "hashFile": "#beginner  #programming"
   },
   {
     "id": "653aa9cdfc8681e1adc4a9a1",
-    "name": "Mina Mostofa",
-    "title": "How to get your first job as a self-taught programmer",
-    "img": "../public/images/boy2.png",
-    "coverImg": "../public/images/3.png",
+    "authorName": "Mina Mostofa",
+    "blogTitle": "How to get your first job as a self-taught programmer",
+    "authorImg": "../public/images/boy2.png",
+    "blogCoverImg": "../public/images/3.png",
     "readTime": 12    ,
     "publishDate": "Mar 14 (4 Days ago)",
-    "hashFile": "#beginner  #programming",
-    "bookMarked": "Master Microsoft Power Platform and Become an In-Demand!"
+    "hashFile": "#beginner  #programming"
   },
   {
     "id": "653aa9cd18e19383ed59a30a",
-    "name": "Avery Rasmussen",
-    "title": "How to get your first job as a self-taught programmer",
-    "img": "../public/images/girl2.jpg",
-    "coverImg": "../public/images/4.jpg",
+    "authorName": "Avery Rasmussen",
+    "blogTitle": "How to get your first job as a self-taught programmer",
+    "authorImg": "../public/images/girl2.jpg",
+    "blogCoverImg": "../public/images/4.jpg",
     "readTime": 5,
     "publishDate": "Mar 14 (4 Days ago)",
-    "hashFile": "#beginner  #programming",
-    "bookMarked": "Master Microsoft Power Platform and Become an In-Demand!"
+    "hashFile": "#beginner  #programming"
   }
 ]

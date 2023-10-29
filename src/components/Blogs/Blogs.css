@@ -1,12 +1,26 @@
-.main-container{
+.main-container, .QuesAns-container{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.main-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
 
-    padding-left: 10vw;
-    padding-right: 10vw;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.15);
     
 }
 
 .blogs-container{
     padding: 10px;
+}
+
+.QuesAns-container{
+    width: 50vw;
+    margin: 0 auto;
+    margin-bottom: 5%;
+
+
+}
+.QuesAns-container h2{
+    text-align: center;
 }

@@ -5,34 +5,32 @@ import { faBookBookmark } from '@fortawesome/free-solid-svg-icons'
 
 const Blog = (props) => {
 
+    // console.log("props",props)
     // received data via props and destructuring
-    const {id, img, name, title, coverImg, readTime, publishDate, hashFile} = props.blog;
+    const { blogCoverImg, authorImg, authorName, publishDate, readTime, blogTitle, hashFile} = props.blog;
 
-    const addToBookMark = (id) =>{
-        console.log("added", id)
-    }
 
     return (
         <div className='blog'>
-            <img className='cover-img' src={coverImg} alt="" />
+            <img className='cover-img' src={blogCoverImg} alt="" />
 
                 <div className="writer-container">
                     <div className='author'>
-                        <img className='author-img' src={img} alt="" />
+                        <img className='author-img' src={authorImg} alt="" />
                         <div className="author-info">
-                            <h3>{name}</h3>
+                            <h3>{authorName}</h3>
                             <p><small>{publishDate}</small></p>
                         </div>
                     </div>
 
                     <div>
                         <p><small>{readTime} min read <span>
-                            <button onClick={() => addToBookMark(id)} className='btn-bookmark'><FontAwesomeIcon icon={faBookBookmark} /></button></span></small></p>
+                            <button className='btn-bookmark'><FontAwesomeIcon icon={faBookBookmark} /></button></span></small></p>
                     </div>
                 </div>
 
                 <div className="blog-info">
-                    <h2>{title}</h2>
+                    <h2>{blogTitle}</h2>
                     <p><small>{hashFile}</small></p>
                     <a href="/">Mark as read</a>
                 </div>

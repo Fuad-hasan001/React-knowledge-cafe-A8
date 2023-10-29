@@ -1,0 +1,35 @@
+[
+  {
+    "id": "483aa9cd2c577ae60c5b3eab",
+    
+    "question": "What is the differences between Props and state ?",
+    "answer": "How to get your first job as a self-taught programmer"
+    
+
+  },
+  {
+    "id": "483aa9cd2c577ae60c5b3ebb",
+    
+    "question": "How does useState work ?",
+    "answer": "How to get your first job as a self-taught programmer"
+    
+
+  },
+  {
+    "id": "483aa9cd2c577ae60c5b3ecb",
+    
+    "question": "What is the Purpose of useEffect other than fetching data ?",
+    "answer": "How to get your first job as a self-taught programmer"
+    
+
+  },
+  {
+    "id": "483aa9cd2c577ae60c5b3edb",
+    
+    "question": "How does React work ?",
+    "answer": "How to get your first job as a self-taught programmer"
+    
+
+  }
+  
+]
