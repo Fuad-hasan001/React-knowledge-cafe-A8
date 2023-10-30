@@ -4,6 +4,8 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
+
+    color: #111;
 }
 
 .bookmark .spentTime-count {

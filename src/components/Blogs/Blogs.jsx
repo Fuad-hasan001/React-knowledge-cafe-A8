@@ -28,9 +28,9 @@ const Blogs = () => {
         // create new bookmark
         const newBookmark = [...bookmark, blog]
         setbookmark(newBookmark)
-
     }
 
+    
 
     // spend time on read--------------------
     const [timeCount, setTimeCount] = useState([])
@@ -40,7 +40,7 @@ const Blogs = () => {
         setTimeCount(newTimeCount)
     }
 
-    
+
     // Question and Answer: -----------------------
         // to get the data from QesAns.json file
     const [quesAns, setQuesAns] = useState([])
